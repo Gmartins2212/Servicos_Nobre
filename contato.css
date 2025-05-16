@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --marrom: #663d26;
+    --verde: #2f9364;
+    --orange: #ff7c37;
+    --degrade-btn: linear-gradient(#fe9611, #ff5c00);
+    --color-p: #a1a1a1;
+    --color-p-2: #868585;
+}
+
+.background {
+  background-image: url("../Inácio/img/servico_nobre.jpg"); /* Caminho da imagem */
+  background-size: cover;       /* cobre toda a tela */
+  background-repeat: no-repeat; /* não repete */
+  height: 100vh;                /* altura da tela inteira */
+  margin: 0;                    /* remove margens padrão */
+  font-family: sans-serif;
+}
+
+/*Classes reutilizavéis*/
+.container{
+    max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+}
+
+.ul li{
+    margin: 0 35px;
+    font-size: 15px;
+}
+
+.ul li a{
+    color:white;
+}
+
+
+
