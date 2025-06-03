@@ -12,6 +12,11 @@
 }
 body{
     font-family: "Poppins", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    justify-content:center;
+    align-items: center;
+  
 } 
 
 :root{
@@ -53,7 +58,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 20px;
+
 }
 
 .logo a{
@@ -269,7 +275,17 @@ diferencias .card .titulo{
    margin: 13px 0;
 }
 .newsletter .box-newsletter input{
-    width: 35%;
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    color: #00000098;
+    background-color: #faefda;
+}
+.newsletter .box-newsletter textarea{
+    width: 100%;
     padding: 15px;
     border-radius: 15px;
     border: none;
@@ -282,10 +298,22 @@ diferencias .card .titulo{
     border: none;
     outline: none;
     padding: 15px;
+    margin-top: 25px;
     border-radius: 14px;
     color: white;
     background-color: var(--verde);
     cursor: pointer;
+}
+.newsletter:hover {
+    background: rgb(13, 166, 13);
+}
+form {
+    background: #ffffff;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1 px solid #ccc;
 }
 /*end newletter*/
 .footer {
@@ -406,7 +434,10 @@ diferencias .card .titulo{
         font-size: 2rem;
     }
     .newsletter .box-newsletter input{
-        width: 90%;
+        width: 100%;
+    }
+    .newsletter .box-newsletter #mensagem{
+        width: 100%;
     }
     .newsletter .box-newsletter{
         padding: 50px;

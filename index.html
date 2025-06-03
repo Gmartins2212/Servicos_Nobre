@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Inácio Nobre</title>
+    <title>Serviços Nobre</title>
 </head>
 <body>
     <div class="background-marrom">
@@ -142,7 +142,7 @@
                     <p class="ferramenta1">Serviço</p>
                     <p class="nome-servico">Hidráulico</p>
                     <p class="contato">
-                        61995061198 <br>
+                        (61) 99506-1198 <br>
                         inacionobre105203@gmail.com
                     </p>
                     <button>X serviços</button>
@@ -154,7 +154,7 @@
                     <p class="ferramenta1">Serviço</p>
                     <p class="nome-servico">Elétrio</p>
                     <p class="contato">
-                        61995061198 <br>
+                        (61) 99506-1198 <br>
                         inacionobre105203@gmail.com
                     </p>
                     <button>X serviços</button>
@@ -166,7 +166,7 @@
                     <p class="ferramenta1">Serviço</p>
                     <p class="nome-servico">Pintura</p>
                     <p class="contato">
-                        61995061198 <br>
+                        (61) 99506-1198 <br>
                         inacionobre105203@gmail.com
                     </p>
                     <button>X serviços</button>
@@ -176,15 +176,21 @@
         </div>
      </section>
      <!--end Serviços mais procurados-->
+    
      <!-- newsLetter -->
       <section class="newsletter">
         <div class="container">
             <div class="box-newsletter">
-                <h2>Inscreva-se na nossa newsletter</h2>
-                <p>Se inscreva para receber nossos conteúdos e novidades</p>
-                <form>
-                    <input type="email" placeholder="Digite o seu e-mail">
-                    <button>Inscrever</button>
+                <h2>Duvidas?</h2>
+                <p>Tire sua Duvida aqui!!!</p>
+                <form action="processar-dados.php" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Digite o seu e-mail" required><br>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+                    <button type="submit">Enviar</button> 
                 </form>
             </div>
         </div>
